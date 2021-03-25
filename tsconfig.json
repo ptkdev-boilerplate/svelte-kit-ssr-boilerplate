@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"moduleResolution": "node",
+		"target": "es2018",
+		"importsNotUsedAsValues": "error",
+		"isolatedModules": true,
+		"sourceMap": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true,
+		"baseUrl": ".",
+		"allowJs": true,
+		"checkJs": true,
+		"paths": {
+			"$app/*": [".svelte/dev/runtime/app/*", ".svelte/build/runtime/app/*"],
+			"$components/*": ["app/components/*"],
+			"$lib/*": ["app/libs/*"]
+		}
+	},
+	"include": ["app/**/*.d.ts", "app/**/*.js", "app/**/*.ts", "app/**/*.svelte"],
+	"exclude": ["scripts/**/*"]
+}
