@@ -94,7 +94,7 @@ module.exports = {
 		"no-mixed-spaces-and-tabs": ["error", "smart-tabs"],
 		"spaced-comment": [2, "always"],
 		"space-before-blocks": ["error", "always"],
-		"space-before-function-paren": ["error", "never"],
+		"space-before-function-paren": "off",
 		"prefer-template": "error",
 		"no-useless-concat": "error",
 		"linebreak-style": ["error", "unix"],

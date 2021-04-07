@@ -1,0 +1,13 @@
+{
+	"package_name": "svelte-kit-ssr-boilerplate",
+	"package_org": "@ptkdev",
+	"display_name": "Svelte KIT Boilerplate",
+	"description": "Svelte server-side-rendering built with SEO in mind. Start your project with this friendly svelte kit boilerplate",
+	"author": "Patryk Rzucidło [@ptkdev] <support@ptkdev.io> (https://ptk.dev)",
+	"author_markdown": "[Patryk Rzucidło](https://ptk.dev) ([@PTKDev](https://twitter.com/ptkdev)) <[support@ptkdev.io](mailto:support@ptkdev.io)>",
+	"author_url": "https://ptk.dev",
+	"github_nickname": "ptkdev",
+	"github_repository_url": "github.com/ptkdev-boilerplate",
+	"github_full_repository_url": "github.com/ptkdev-boilerplate/svelte-kit-ssr-boilerplate",
+	"email": "support@ptkdev.io"
+}

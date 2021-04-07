@@ -17,9 +17,9 @@ module.exports = {
 			assets: "assets",
 			hooks: "app/hooks",
 			lib: "app/lib",
-			routes: "app/routes",
+			routes: "app/pages",
 			serviceWorker: "app/service-worker",
-			template: "app/app.html"
+			template: "app/core/app.html"
 		},
 
 		// hydrate the <div id="svelte"> element in src/app.html

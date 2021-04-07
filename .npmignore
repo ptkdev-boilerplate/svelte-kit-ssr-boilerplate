@@ -1,4 +1,4 @@
 **/*
-!/build/**/*
+!/dist/**/*
 !*.md
 !package*.json

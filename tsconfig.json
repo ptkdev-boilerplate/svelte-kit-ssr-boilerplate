@@ -11,12 +11,14 @@
 		"baseUrl": ".",
 		"allowJs": true,
 		"checkJs": true,
+		"typeRoots": ["app/**/types", "node_modules/@types"],
 		"paths": {
-			"$app/*": [".svelte/dev/runtime/app/*", ".svelte/build/runtime/app/*"],
-			"$components/*": ["app/components/*"],
-			"$lib/*": ["app/libs/*"]
+			"@components/*": ["./app/components/*"],
+			"@translations/*": ["./app/translations/*"],
+			"@configs/*": ["./app/configs/*"],
+			"@app/*": ["./app/*"]
 		}
 	},
-	"include": ["app/**/*.d.ts", "app/**/*.js", "app/**/*.ts", "app/**/*.svelte"],
-	"exclude": ["scripts/**/*"]
+	"include": ["app/**/*"],
+	"exclude": ["node_modules/*", "dist/*", "scripts/*"]
 }
