@@ -18,7 +18,7 @@
 					"platform": "shields"
 				},
 				{
-					"url": "https://www.npmjs.com/package/@ptkdev-boilerplate/svelte-kit-ssr-boilerplate",
+					"url": "https://www.npmjs.com/package/@ptkdev/svelte-kit-ssr-boilerplate",
 					"color": "#CC3534",
 					"label": "npm",
 					"logo": "npm",
