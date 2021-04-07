@@ -31,8 +31,26 @@ Svelte server-side-rendering built with SEO in mind. Start your project with thi
 
 -   [✔️] Easy to use
 -   [✔️] MIT License
--   [✔️] Svelte KIT Boilerplate
--   [✔️] Typescript and SCSS
+-   [✔️] Server side rendering built with SEO in mind
+-   [✔️] Browser sync, auto refresh, auto reload
+-   [✔️] Dark mode
+-   [✔️] 100% on Google Speedpage
+-   [✔️] Friendly boilerplate + Github templates
+-   [✔️] Powered by svelte-kit framework
+-   [✔️] Without jQuery depencence
+-   [✔️] Typescript + TSPaths preconfigured
+-   [✔️] Userfriendly folders tree
+-   [✔️] Prettiers and ESLint preconfigured
+-   [✔️] all-contributors-cli and all-shields-cli preconfigured
+-   [✔️] JEST Test preconfigured
+-   [✔️] Full async code
+-   [✔️] Github and Vscode dotfiles preconfigured
+-   [✔️] Translations i18n: 🇬🇧 🇮🇹 🇵🇱 (Help me ❤️)
+
+### 🔖 TODO
+
+-   [✖️] PWA + Service Worker + Offline
+-   [✖️] Images LazyLoad
 
 ## 🔨 Developer Mode
 
