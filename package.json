@@ -4,6 +4,9 @@
 	"description": "Svelte server-side-rendering built with SEO in mind. Start your project with this friendly svelte kit boilerplate",
 	"version": "1.0.20210407",
 	"main": "build/index.js",
+	"publishConfig": {
+		"access": "public"
+	},
 	"author": "Patryk Rzucidło [@ptkdev] <support@ptkdev.io> (https://ptk.dev)",
 	"license": "MIT",
 	"license-docs": "CC BY 4.0",
