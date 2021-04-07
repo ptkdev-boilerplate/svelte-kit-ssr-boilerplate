@@ -11,7 +11,6 @@
  * @license: MIT License
  *
  */
-import * as shell from "shelljs";
 const replace = require("replace-in-file");
 const setup = require("../setup.json");
 const pkg = require("../package.json");
