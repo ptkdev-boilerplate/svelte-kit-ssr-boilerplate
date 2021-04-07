@@ -39,7 +39,7 @@ Svelte server-side-rendering built with SEO in mind. Start your project with thi
 1. Clone this repository or download [nightly](https://github.com/ptkdev-boilerplate/svelte-kit-ssr-boilerplate/archive/nightly.zip), [beta](https://github.com/ptkdev-boilerplate/svelte-kit-ssr-boilerplate/archive/beta.zip) or [stable](https://github.com/ptkdev-boilerplate/svelte-kit-ssr-boilerplate/archive/main.zip).
 2. Run `npm install`
 3. Run `npm run dev`
-4. Run `http://localhost:3000`
+4. Run `http://localhost:5000`
 
 ## 📚 Documentation
 
