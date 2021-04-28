@@ -1,7 +1,6 @@
 {
 	"compilerOptions": {
 		"moduleResolution": "node",
-		"target": "es2018",
 		"importsNotUsedAsValues": "error",
 		"isolatedModules": true,
 		"sourceMap": true,
