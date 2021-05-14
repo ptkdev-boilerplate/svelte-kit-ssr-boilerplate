@@ -130,3 +130,5 @@ configs/*.ts
 /dist
 /build
 /.svelte
+/.svelte-kit
+/functions

@@ -1,3 +1,7 @@
+<script context="module">
+	export const prerender = true;
+</script>
+
 <script lang="ts">
 	/**
 	 * Home HTML
@@ -8,11 +12,7 @@
 	 * @license: MIT License
 	 *
 	 */
-	import Menu from "../components/common/menu/menu.svelte";
-	import Footer from "../components/common/footer/footer.svelte";
 </script>
-
-<Menu />
 
 <div id="container">
 	<section class="hero is-medium is-primary is-bold">
@@ -25,12 +25,3 @@
 	</section>
 	<div class="content has-text-centered">app/pages/home.svelte</div>
 </div>
-
-<Footer />
-
-<style lang="scss" global>
-	@import "../../node_modules/bulma/css/bulma.min";
-	@import "../../node_modules/bulma-extensions/dist/css/bulma-extensions.min";
-	@import "./index.scss";
-	@import "../components/common/darkmode/darkmode.scss";
-</style>

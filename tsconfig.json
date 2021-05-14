@@ -1,8 +1,12 @@
 {
 	"compilerOptions": {
 		"moduleResolution": "node",
+		"module": "es2020",
+		"lib": ["es2020", "dom"],
+		"target": "es2019",
 		"importsNotUsedAsValues": "error",
 		"isolatedModules": true,
+		"resolveJsonModule": true,
 		"sourceMap": true,
 		"esModuleInterop": true,
 		"skipLibCheck": true,
@@ -10,7 +14,6 @@
 		"baseUrl": ".",
 		"allowJs": true,
 		"checkJs": true,
-		"typeRoots": ["app/**/types", "node_modules/@types"],
 		"paths": {
 			"@components/*": ["./app/components/*"],
 			"@translations/*": ["./app/translations/*"],
@@ -18,6 +21,5 @@
 			"@app/*": ["./app/*"]
 		}
 	},
-	"include": ["app/**/*"],
-	"exclude": ["node_modules/*", "dist/*", "scripts/*"]
+	"include": ["app/**/*.d.ts", "app/**/*.js", "app/**/*.ts", "app/**/*.svelte"]
 }

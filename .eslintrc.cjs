@@ -7,11 +7,12 @@ module.exports = {
 		"jest/globals": true
 	},
 	"parser": "@typescript-eslint/parser",
-	"extends": ["eslint:recommended", "plugin:@typescript-eslint/eslint-recommended", "plugin:@typescript-eslint/recommended"],
+	"extends": ["eslint:recommended", "plugin:@typescript-eslint/eslint-recommended", "plugin:@typescript-eslint/recommended", "prettier"],
 	"parserOptions": {
 		"sourceType": "module",
 		"ecmaVersion": 2019
 	},
+	ignorePatterns: ["*.cjs"],
 	"plugins": ["jsdoc", "jest", "svelte3", "@typescript-eslint"],
 	"globals": {
 		"fetch": false
@@ -25,10 +26,7 @@ module.exports = {
 		"svelte3/typescript": require("typescript")
 	},
 	"overrides": [
-		{
-			"files": ["**/*.svelte"],
-			"processor": "svelte3/svelte3"
-		}
+		{ files: ["*.svelte"], processor: "svelte3/svelte3" }
 	],
 	"rules": {
 		"no-multi-spaces": [
