@@ -2,7 +2,7 @@
 	"name": "@ptkdev/svelte-kit-ssr-boilerplate",
 	"displayName": "Svelte KIT Boilerplate",
 	"description": "Svelte server-side-rendering built with SEO in mind. Start your project with this friendly svelte kit boilerplate",
-	"version": "1.0.20210514",
+	"version": "1.0.20210516",
 	"main": "build/index.js",
 	"publishConfig": {
 		"access": "public"
