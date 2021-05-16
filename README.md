@@ -49,6 +49,7 @@ This is a [github template](https://github.blog/2019-06-06-generate-new-reposito
 -   [✔️] JEST Test preconfigured
 -   [✔️] Full async code
 -   [✔️] Github and Vscode dotfiles preconfigured
+-   [✔️] HTTP/HTTPS support
 -   [✔️] Translations i18n: 🇬🇧 🇮🇹 🇵🇱 (Help me ❤️)
 
 ### 🔖 TODO
@@ -60,8 +61,8 @@ This is a [github template](https://github.blog/2019-06-06-generate-new-reposito
 
 1. Clone this repository or download [nightly](https://github.com/ptkdev-boilerplate/svelte-kit-ssr-boilerplate/archive/nightly.zip), [beta](https://github.com/ptkdev-boilerplate/svelte-kit-ssr-boilerplate/archive/beta.zip) or [stable](https://github.com/ptkdev-boilerplate/svelte-kit-ssr-boilerplate/archive/main.zip).
 2. Run `npm run init`
-3. Run `npm run dev`
-4. Run `http://localhost:5000`
+3. Run `npm run dev` or `npm run dev-https` (this assumes you have [mkcert](https://github.com/FiloSottile/mkcert))
+4. Run `http://localhost:5000` or `https://localhost:5000`
 
 ## 📚 Documentation
 
