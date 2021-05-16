@@ -29,6 +29,7 @@
 		"setup": "ts-node --skip-project scripts/setup.ts && ts-node --skip-project scripts/changelog.ts && npm run pre-commit",
 		"start": "svelte-kit preview -p 5000",
 		"dev": "svelte-kit dev -p 5000",
+		"dev-https": "mkcert localhost && svelte-kit dev -p 5000 -H",
 		"build": "svelte-kit build",
 		"release": "npm run build && ttsc --declaration --emitDeclarationOnly",
 		"test": "jest app",
