@@ -10,7 +10,7 @@ const config = {
 		adapter: adapter({ out: "build" }),
 		target: "#svelte",
 		router: true,
-		ssr: false,
+		ssr: true,
 		hydrate: true,
 		trailingSlash: "never",
 		amp: false,
