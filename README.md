@@ -6,7 +6,9 @@
 
 <!-- all-shields/header-badges:END -->
 
-Svelte server-side-rendering built with SEO in mind. Start your project with this friendly svelte kit boilerplate
+> ⚠️ IMPORTANT: This boilerplate is work-inprogress (because svelte-kit is in alpha/beta version). Don't use it in production.
+
+Svelte server-side-rendering built with SEO in mind. Start your project with this friendly svelte kit boilerplate.
 
 This is a [github template](https://github.blog/2019-06-06-generate-new-repositories-with-repository-templates/), you can fork it or [use as template](https://github.com/ptkdev-boilerplate/svelte-kit-ssr-boilerplate/generate) for start new project with this repository as hello-world. I hate start new project with empty template, often i missing correct configuration, readme instruction or i need of samples of code. Use this repository as template solve this problem.
 
@@ -37,8 +39,6 @@ This is a [github template](https://github.blog/2019-06-06-generate-new-reposito
 -   [✔️] MIT License
 -   [✔️] Server side rendering built with SEO in mind
 -   [✔️] Browser sync, auto refresh, auto reload
--   [✔️] Dark mode
--   [✔️] 100% on Google Speedpage
 -   [✔️] Friendly boilerplate + Github templates
 -   [✔️] Powered by svelte-kit framework
 -   [✔️] Without jQuery depencence
@@ -54,6 +54,8 @@ This is a [github template](https://github.blog/2019-06-06-generate-new-reposito
 
 ### 🔖 TODO
 
+-   [✖️] Dark mode (Issue: [#1](https://github.com/ptkdev-boilerplate/svelte-kit-ssr-boilerplate/issues/1))
+-   [✖️] 100% on Google Speedpage (Issue: [#6](https://github.com/ptkdev-boilerplate/svelte-kit-ssr-boilerplate/discussions/6))
 -   [✖️] PWA + Service Worker + Offline
 -   [✖️] Images LazyLoad
 
