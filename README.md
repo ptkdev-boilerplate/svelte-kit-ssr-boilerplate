@@ -6,7 +6,7 @@
 
 <!-- all-shields/header-badges:END -->
 
-> ⚠️ IMPORTANT: This boilerplate is work-inprogress (because svelte-kit is in alpha/beta version). Don't use it in production.
+> ⚠️ IMPORTANT: This boilerplate is work-in-progress (svelte-kit is in alpha/beta version). Don't use it in production.
 
 Svelte server-side-rendering built with SEO in mind. Start your project with this friendly svelte kit boilerplate.
 
