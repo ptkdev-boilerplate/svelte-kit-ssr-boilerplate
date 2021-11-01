@@ -41,7 +41,11 @@ const darkModeToggle = (): boolean => {
  *
  */
 const darkModeDetect = (): boolean => {
-	if (window.localStorage.getItem("darkmode") === "enabled" || (window.localStorage.getItem("darkmode") === undefined && window?.matchMedia("(prefers-color-scheme: dark)").matches)) {
+	if (
+		window.localStorage.getItem("darkmode") === "enabled" ||
+		(window.localStorage.getItem("darkmode") === undefined &&
+			window?.matchMedia("(prefers-color-scheme: dark)").matches)
+	) {
 		if (!document.querySelector("html").classList.contains("darkmode")) {
 			document.querySelector("html").classList.add("darkmode");
 			document.querySelector("body").classList.add("darkmode");
